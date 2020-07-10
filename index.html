@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        
+        <i class="fa fa-clock-o fa-4x clock" aria-hidden="true"></i>
+        <h1>STOP WATCH</h1>
+
+        <div>
+            <h2 id="hour">0</h2><span class="col">:</span>
+            <h2 id="min">0</h2><span class="col">:</span>
+            <h2 id="sec">0</h2>
+        </div>
+        <div>
+            <button id="btnstr" onclick="start()">Start</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
